@@ -1,0 +1,19 @@
+
+body {
+    background: url("../images/Fox_Night_Scene_2.0.png");
+    background-repeat: no-repeat;
+    background-color: #240B50;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
+
+h1, h2, p {
+    color: #ffffff;
+}
