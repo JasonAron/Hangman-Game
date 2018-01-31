@@ -14,31 +14,41 @@
 </head>
 <body>
 
+
+	<!-- Title -->
+	<header id="masthead">
+		<h1>Hangman</h1>
+	</header>
+
 	<!-- Main Container -->
 	<div class="wrapper">
-		<h1>Hangman</h1>
-		<h2>Animal Style</h2>
-		<p>Guess This Animal.</p>
+
+
+		<!-- Main Content -->
+		<div id="main-container" class="container">
+			<section class="main-section">
+				<h2>Guess This Endangered Animal!</h2>
+				<p>Press Any Letter To Play</p>
+			</section>
+		</div>
 
 
 
-	<div id="hold">
-	</div>
+		<div class="container">
+			<p id="mylives"></p>
+			<button id="reset">Play again</button>
+			<button id="hint">Hint</button>
+		</div>
+		
+	</div> <!--Main Container Wrapper-->
+	
+
+	<!-- Java Script -->
+	<script src="./assets/javascript/game.js"></script>
 
 
-	<p id="mylives"></p>
-	<p id="clue">Clue:</p>
-
-
-	<div class="container">
-		<button id="hint">Hint</button>
-		<button id="reset">Play again</button>
-	</div>
-</div>
-
-
-
-
-
+	<footer>
+		<div class="footer">Copyright @ Jason Aron 2018</div>
+	</footer>
 </body>
 </html>

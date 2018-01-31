@@ -7,6 +7,13 @@ body {
     background-attachment: fixed;
 }
 
+
+#masthead {
+  width: 100%;
+  overflow: auto;
+  margin-bottom: 200px;
+}
+
 .wrapper {
   width: 100%;
   max-width: 960px;
@@ -14,6 +21,46 @@ body {
   clear: both;
 }
 
+
+
 h1, h2, p {
     color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin:5px 0;
+    text-align: center;
 }
+
+#mylives{
+  font-size:1.6em;
+  text-align:center;
+  display:block;
+}
+
+button{
+  background: #240B50;
+  border: solid 2px #ffffff;
+  color: #ffffff;
+  cursor:pointer;
+  font-size:1.2em;
+  padding:18px 10px;
+  width:180px;
+  margin: 10px;
+  outline: none;
+}
+
+.container {
+    text-align: center;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+
