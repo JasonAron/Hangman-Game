@@ -8,47 +8,66 @@
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="assets/css/style.css">
 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 	<title>Hangman</title>
 
 </head>
+
 <body>
 
 
-	<!-- Title -->
-	<header id="masthead">
-		<h1>Hangman</h1>
-	</header>
-
-	<!-- Main Container -->
-	<div class="wrapper">
 
 
-		<!-- Main Content -->
-		<div id="main-container" class="container">
-			<section class="main-section">
-				<h2>Guess This Endangered Animal!</h2>
-				<p>Press Any Letter To Play</p>
-			</section>
+	<!-- Video BG -->
+	<div id="video-container">
+		<video preload="auto" autoplay="true" loop>
+			<source src="assets/images/particles.mp4" type="video/mp4">
+			</video>
+
+
+
+	<audio id="myaudio" preload="auto" autoplay="true" loop>
+  		<source src="assets/03Buried.m4a" type="audio/mp4">
+  	</audio>
+
+
+			<!-- Title -->
+			<header id="masthead">
+				<h1>Hangman</h1>
+			</header>
+
+			<!-- Main Container -->
+			<div class="wrapper">
+
+
+				<!-- Main Content -->
+				<div id="main-container" class="container">
+					<section class="main-section">
+						<h2>Guess This Endangered Animal</h2>
+						<p id="lettersGuessed()"></p>
+					</section>
+				</div>
+
+
+				<div id="userGuess"> </div>
+
+
+				<div class="container">
+					<p>Press Start To Play</p>
+					<button onclick= "newUndersoreWord() setHangmanWord()">Start</button>
+					<button id="reset">Play again</button>
+				</div>
+
+			</div> <!--Main Container Wrapper-->
+
+
+			<footer>
+				<div class="footer">Copyright @ Jason M. Aron 2018</div>
+			</footer>
 		</div>
 
-
-
-		<div class="container">
-			<p id="mylives"></p>
-			<button id="Start">Start</button>
-			<button id="reset">Play again</button>
-		</div>
-		
-	</div> <!--Main Container Wrapper-->
-	
-
-	<!-- Java Script -->
-	<script src="./assets/javascript/game.js"></script>
-
-
-	<footer>
-		<div class="footer">Copyright @ Jason M. Aron 2018</div>
-	</footer>
-</body>
-</html>
+		<!-- Java Script -->
+			<script src="./assets/javascript/game.js"></script>
+	</body>
+	</html>
