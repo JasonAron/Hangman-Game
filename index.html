@@ -8,8 +8,6 @@
 	<!-- Custom CSS -->
 	<link rel="stylesheet" href="assets/css/style.css">
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
 	<title>Hangman</title>
 
 </head>
@@ -35,6 +33,11 @@
 			<!-- Title -->
 			<header id="masthead">
 				<h1>Hangman</h1>
+				<h2>Endangered Animals</h2>
+
+				<br>
+
+				<p id="blink_me">Press Any Key To Play</p>
 			</header>
 
 			<!-- Main Container -->
@@ -44,19 +47,27 @@
 				<!-- Main Content -->
 				<div id="main-container" class="container">
 					<section class="main-section">
-						<h2>Guess This Endangered Animal</h2>
-						<p id="lettersGuessed()"></p>
+
+
+						<div id="underscoreword"></div>
+
+						<br>
+						<br>
+
+						<div id="lettersguessed"></div>
+						
+						<br>
+						
 					</section>
 				</div>
 
-
-				<div id="userGuess"> </div>
-
-
 				<div class="container">
-					<p>Press Start To Play</p>
-					<button onclick= "#">Start</button>
-					<button id="reset">Play again</button>
+					<h2>WINS:</h2>
+					<div id="wincount"></div>
+					<h2>LOSSES:</h2>
+					<div id="losscount"></div>
+					<h2>REMAINING GUESSES:</h2>
+					<div id="guessesremaining"></div>
 				</div>
 
 			</div> <!--Main Container Wrapper-->

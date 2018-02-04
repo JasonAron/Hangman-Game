@@ -9,6 +9,16 @@ body {
     background-attachment: fixed;*/
 }
 
+/*Blink Animation*/
+#blink_me {
+  animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+
+/*MP4 Background*/
 #video-container {
   width: 100%;
   max-width: 980px;
@@ -29,7 +39,6 @@ video {
 
 
 
-
 #masthead {
   width: 100%;
   overflow: auto;
@@ -46,7 +55,7 @@ video {
 
 
 
-h1, h2, p {
+h1, h2, h3, p {
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
@@ -55,14 +64,59 @@ h1, h2, p {
     text-align: center;
 }
 
-#mylives{
-  font-size:1.6em;
-  text-align:center;
-  display:block;
+
+ p {
+  font-size: 24px;
+ }
+
+
+#underscoreword {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: 8px;
+
 }
 
+#guessesremaining {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 24px;
+
+}
+
+#lettersguessed {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 24px;
+
+}
+
+#wincount {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+#losscount {
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+
 button{
-  background: #240B50;
+  background: transparent;
   border: solid 2px #ffffff;
   color: #ffffff;
   cursor:pointer;
