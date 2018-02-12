@@ -6,7 +6,7 @@ Click [here](https://jasonaron.github.io/Hangman-Game/) to see the live game.
 
 * Animation - Adobe After Effects and CSS3
 
-* Illustration - Fox and Environment Illustration (Vector illustration using SketchApp).
+* Illustration - Fox and Environment Illustration created using SketchApp.
 
 <h2>Developement</h2>
 
