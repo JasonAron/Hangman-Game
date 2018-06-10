@@ -17,6 +17,9 @@
 	var hangmanWord = "";
 	var underscoreWord = [];
 	var hangManWordString = "";
+
+	$("#myaudio").prop("volume", 0.1);
+
 	
  
 	// function convertToString(word) {
